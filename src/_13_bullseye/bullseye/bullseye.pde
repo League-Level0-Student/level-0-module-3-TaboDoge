@@ -3,23 +3,34 @@ void setup(){
 }
 
 void draw(){
-  int e = #456899;;
-  for(int i = 0; i<1000; i++){
+  
+ int e =0;
+  for(int i = 0; i<10; i++){
+    
+    
+   
  
-  e= i + e;
+
+  
   fill(00000);
   ellipse(50,50,20,20);
   
- fill(e);
+ 
+ fill(color(random(225), random(225), random(225)));
   ellipse(50,50,18,18);
-  
+   
   fill(00000);
   ellipse(50,50,12,12);
+   
   
-  fill(e);
-  ellipse(50,50, 10, 10);
+ 
+    fill(color(random(225), random(225), random(225)));
+  ellipse(50,50,10,10);
   
   fill(00000);
   ellipse(50,50,4, 4);
+  
+
+  
   }
 }
