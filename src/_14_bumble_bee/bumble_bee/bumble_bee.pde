@@ -1,8 +1,13 @@
 void draw() {
-/*Use a loop to make a body for the Bee!
-Then put his head on using drawBeeFace(x,y)
-Use Modulo to make the colors alternate 
-*/
+for(int i = 390; i > 1;){
+  i = i - 10;
+  fill(255, 251, 28);
+  ellipse(i, i, 60, 60);
+  fill(000000);
+  ellipse(i - 10, i -10, 60, 60);
+  i = i - 10;
+}
+drawBeeFace(400, 400);
 }
 
 void drawFlower(int x, int y) {

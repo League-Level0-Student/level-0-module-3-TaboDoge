@@ -1,36 +1,30 @@
 void setup(){
-  size(100, 100);
-}
-
-void draw(){
-  
- int e =0;
-  for(int i = 0; i<10; i++){
+  size(400, 400);
+    int f = 50;
+ int e =45;
+  for(int i = 40; i > 1; i--){
     
     
-   
  
+ if (i % 2 ==0){
 
   
   fill(00000);
-  ellipse(50,50,20,20);
+  ellipse(200,200,i*10 , i*10);
+ }
+ 
+ else{
+  fill(#790606);
+  ellipse(200, 200 , i*10,i*10 );
+ }
+
   
  
- fill(color(random(225), random(225), random(225)));
-  ellipse(50,50,18,18);
-   
-  fill(00000);
-  ellipse(50,50,12,12);
-   
-  
- 
-    fill(color(random(225), random(225), random(225)));
-  ellipse(50,50,10,10);
-  
-  fill(00000);
-  ellipse(50,50,4, 4);
-  
 
   
   }
+}
+
+void draw(){
+
 }
