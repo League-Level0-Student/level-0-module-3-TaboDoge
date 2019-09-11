@@ -1,48 +1,66 @@
+int x1 = 200;
+int x2 = 800;
 void setup(){
-  int t = 800;
-  int o = 200;
  size(1000, 400);
+}
+void draw(){
+background(#E7E3EA);
     int f = 50;
  int e =45;
   for(int i = 40; i > 1; i--){
-  
-
- 
- if (i % 2 ==0){
-
-  
-  noFill();
-  ellipse(o ,200,i*10 , i*10);
- }
- 
- else{
-  noFill();
-  ellipse(o, 200 , i*10,i*10 );
- }
-  for(int eu = 40; eu > 1; eu--){
-
     
- for (int rr = 40; rr > 1; rr--){
+    
+ 
  if (i % 2 ==0){
 
   
   noFill();
-  ellipse(t,200,i*10, i*10);
+  ellipse(x1,200,i*10 , i*10);
  }
  
  else{
   noFill();
-  ellipse(t, 200 , i*10,i*10 );
+  ellipse(x1, 200 , i*10,i*10 );
  }
- }s
+
   
  
 
   
   }
-}
 
-}
-void draw(){
 
+  for(int i = 40; i > 1; i--){
+    
+    
+ 
+ if (i % 2 ==0){
+
+  
+  noFill();
+  ellipse(x2,200,i*10 , i*10);
+ }
+ 
+ else{
+  noFill();
+  ellipse(x2, 200 , i*10,i*10 );
+ }
+
+  
+ 
+
+  
+  }
+if(x1 < 800){
+ x1++; 
+ 
+}
+if(x2 > 200){
+  x2--;
+  
+}
+else{
+  x1 = 200;
+  x2 = 800;
+}
 }
