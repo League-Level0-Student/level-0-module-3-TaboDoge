@@ -1,8 +1,70 @@
+import org.jointheleague.graphical.robot.Robot;
 
 public class CheckpointMod3Lev0 {
 public static void main(String[] args) {
-	for(int i = 1; i < 500; i++, i++) {
-		System.out.println(i);
-	}
-} 
+	Robot e = new Robot();
+	e.setSpeed(1000);
+	e.penDown();
+	e.move(150);
+	e.turn(90);
+	e.move(150);
+	e.turn(90);
+	e.move(150);
+	e.turn(90);
+	e.move(150);
+	e.turn(45);
+	e.move(100);
+	e.turn(45);
+	e.move(150);
+	e.turn(135);
+	e.move(100);
+	e.turn(315);
+	e.move(150);
+	e.turn(-135);
+	e.move(100);
+	e.turn(-45);
+	e.move(150);
+	e.penUp();
+	e.turn(-90);
+	e.move(150);
+	e.turn(90);
+	e.penDown();
+	e.move(300);
+	e.turn(-135);
+	e.move(200);
+	e.turn(-45);
+	e.move(550);
+	e.turn(-135);
+	e.move(200);
+	e.turn(-45);
+	e.move(27);
+	e.penUp();
+	e.move(525);
+	e.turn(-90);
+	e.penDown();
+	e.move(25);
+	e.turn(-45);
+	e.move(200);
+	e.turn(-135);
+	e.move(25);
+	e.turn(180);
+	e.move(25);
+	e.turn(-90);
+	e.move(550);
+	e.turn(-90);
+	e.move(25);
+	e.turn(180);
+	e.move(25);
+	e.turn(90);
+	e.move(15);
+	e.turn(-90);
+	e.move(100);
+	e.turn(90);
+	e.move(20);
+	e.turn(90);
+	e.move(100);
+	e.turn(180);
+	e.move(100);
 }
+} 
+
