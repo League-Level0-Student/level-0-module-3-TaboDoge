@@ -3,7 +3,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class CheckpointMod3Lev0 {
 public static void main(String[] args) {
 	Robot e = new Robot();
-	e.setSpeed(1000);
+	e.setSpeed(10000);
 	e.penDown();
 	e.move(150);
 	e.turn(90);
@@ -65,6 +65,50 @@ public static void main(String[] args) {
 	e.move(100);
 	e.turn(180);
 	e.move(100);
+	e.turn(180);
+	e.move(100);
+	e.turn(-90);
+	e.move(480);
+	e.turn(-90);
+	e.move(100);
+	e.turn(90);
+	e.move(20);
+	e.turn(90);
+	e.move(100);
+	e.turn(-90);
+	e.move(15);
+	e.turn(45);
+	e.move(175);
+	e.turn(-135);
+	e.move(100);
+	e.turn(135);
+	e.move(20);
+	e.turn(45);
+	e.move(100);
+	e.penUp();
+	e.turn(180);
+	e.move(115);
+	e.turn(90);
+	e.penDown();
+	e.move(100);
+	e.turn(180);
+	e.move(215);
+	e.penUp();
+	e.move(575);
+	e.penDown();
+	e.move(200);
+	e.turn(-90);
+	e.move(50);
+	e.turn(-90);
+	e.move(247);
+	e.penUp();
+	e.move(578);
+	e.penDown();
+	e.move(50);
+	e.penUp();
+	e.move(16);
+	e.penDown();
+	e.move(200);
 }
 } 
 
